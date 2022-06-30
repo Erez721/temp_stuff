@@ -1,0 +1,210 @@
+{
+  "Name": "schedule_meeting",
+  "CreationDate": "2022-6-30",
+  "Commands": [
+    {
+      "Command": "while_v2",
+      "Target": "1 == 1",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "open",
+      "Target": "https://agendamentosonline.mne.gov.pt/",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"j_idt61\"]/span",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"j_idt61\"]/span",
+        "xpath=//center/button/span",
+        "css=#j_idt61 > span"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"indexForm:j_idt29\"]/span",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"indexForm:j_idt29\"]/span",
+        "xpath=//td[2]/button/span",
+        "css=#indexForm:j_idt29 > span"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=scheduleForm:tabViewId:ccnum",
+      "Value": "",
+      "Targets": [
+        "id=scheduleForm:tabViewId:ccnum",
+        "name=scheduleForm:tabViewId:ccnum",
+        "xpath=//*[@id=\"scheduleForm:tabViewId:ccnum\"]",
+        "xpath=//input[@id='scheduleForm:tabViewId:ccnum']",
+        "xpath=//td[2]/input",
+        "css=#scheduleForm:tabViewId:ccnum"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=scheduleForm:tabViewId:ccnum",
+      "Value": "9105113366",
+      "Targets": [
+        "id=scheduleForm:tabViewId:ccnum",
+        "name=scheduleForm:tabViewId:ccnum",
+        "xpath=//*[@id=\"scheduleForm:tabViewId:ccnum\"]",
+        "xpath=//input[@id='scheduleForm:tabViewId:ccnum']",
+        "xpath=//td[2]/input",
+        "css=#scheduleForm:tabViewId:ccnum"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "id=scheduleForm:tabViewId:dataNascimento_input",
+      "Value": "",
+      "Targets": [
+        "id=scheduleForm:tabViewId:dataNascimento_input",
+        "name=scheduleForm:tabViewId:dataNascimento_input",
+        "xpath=//*[@id=\"scheduleForm:tabViewId:dataNascimento_input\"]",
+        "xpath=//input[@id='scheduleForm:tabViewId:dataNascimento_input']",
+        "xpath=//span/input",
+        "css=#scheduleForm:tabViewId:dataNascimento_input"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "id=scheduleForm:tabViewId:dataNascimento_input",
+      "Value": "06-07-1999",
+      "Targets": [
+        "id=scheduleForm:tabViewId:dataNascimento_input",
+        "name=scheduleForm:tabViewId:dataNascimento_input",
+        "xpath=//*[@id=\"scheduleForm:tabViewId:dataNascimento_input\"]",
+        "xpath=//input[@id='scheduleForm:tabViewId:dataNascimento_input']",
+        "xpath=//span/input",
+        "css=#scheduleForm:tabViewId:dataNascimento_input"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"scheduleForm:tabViewId:searchIcon\"]/span",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"scheduleForm:tabViewId:searchIcon\"]/span",
+        "xpath=//div/button/span",
+        "css=#scheduleForm:tabViewId:searchIcon > span"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "click // id=scheduleForm:postcons_label",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"scheduleForm:postcons_panel\"]/div/ul/li[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"scheduleForm:postcons_panel\"]/div/ul/li[2]",
+        "xpath=//div[25]/div/ul/li[2]",
+        "css=#scheduleForm:postcons_panel > div > ul > li.ui-selectonemenu-item.ui-selectonemenu-list-item.ui-corner-all.ui-state-highlight"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "click // id=scheduleForm:categato_label",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"scheduleForm:categato_panel\"]/div/ul/li[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"scheduleForm:categato_panel\"]/div/ul/li[2]",
+        "xpath=//div[26]/div/ul/li[2]",
+        "css=#scheduleForm:categato_panel > div > ul > li.ui-selectonemenu-item.ui-selectonemenu-list-item.ui-corner-all.ui-state-highlight"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"scheduleForm:bAddAto\"]/span",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"scheduleForm:bAddAto\"]/span",
+        "xpath=//fieldset/div/button/span",
+        "css=#scheduleForm:bAddAto > span"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"scheduleForm:dataTableListaAtos:0:selCond\"]/div[2]",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"scheduleForm:dataTableListaAtos:0:selCond\"]/div[2]",
+        "xpath=//div[2]/div/div[2]",
+        "css=#scheduleForm:dataTableListaAtos:0:selCond > div.ui-chkbox-box.ui-widget.ui-corner-all.ui-state-default.ui-state-hover"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "100",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"scheduleForm:dataTableListaAtos:0:bCal\"]/span",
+      "Value": "",
+      "Targets": [
+        "xpath=//*[@id=\"scheduleForm:dataTableListaAtos:0:bCal\"]/span",
+        "xpath=//span[2]/table/tbody/tr/td/button/span",
+        "css=#scheduleForm:dataTableListaAtos:0:bCal > span"
+      ],
+      "Description": ""
+    },
+    {
+      "Command": "pause",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "end",
+      "Target": "",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "while_v2 // ( 1 == 1 )",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "pause // 1000",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "comment",
+      "Target": "end // ",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
